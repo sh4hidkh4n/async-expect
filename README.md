@@ -49,19 +49,19 @@ try{
 }
 
 try{
-    // problem1 - user isnt accessible here. let block scoped
-    // have to user var
+    // problem1 - user isnt accessible here. let is block scoped
+    // have to use var
     // let like = await Post.addLike(user.username);
     var like = await Post.addLike(user.username);
 }catch(err){
-    app.redirect("/err", "invalid user")
+    app.redirect("/err", "you cant like this post.")
 }
 
 // problem2 - readablity issue
 
 ```
 
-#### 3. Using async-expect
+### With async-expect
 
 ```js
 
