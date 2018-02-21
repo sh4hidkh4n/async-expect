@@ -10,7 +10,14 @@ describe('Expectations', function () {
 
     describe('#toBeA()', function () {
         it('should throw error if value isnt of expected type', function () {
-            expect({}).toBeA(Object);
+            
+            let User = function () {
+                this.name = "User"
+            }
+
+            let user1=new User()
+
+            expect(user1).toBeA(User);
             expect(undefined).toNotBeA('string')
         });
     });
