@@ -1,10 +1,10 @@
 {
   "name": "async-expect",
   "version": "1.0.0",
-  "description": "write assertion easily with ES7 async-await. ",
+  "description": "Efficient error handling in async-await.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "keywords": [
     "async",
@@ -15,8 +15,15 @@
   ],
   "author": "Shahid Kamal <shahidkamalhimself@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0"
-  }
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sh4hidkh4n/async-expect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sh4hidkh4n/async-expect/issues"
+  },
+  "homepage": "https://github.com/sh4hidkh4n/async-expect#readme"
 }
