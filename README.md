@@ -1,6 +1,6 @@
 # async-expect
 Expectation function taken from [expect](https://github.com/mjackson/expect). 
-This is not for writing test but to use it when writing asynchronus code with the help of `async-await`. (see below for example use-case)
+This is not for writing test but to use it when writing asynchronus code with the help of `async-await`. (see below for example [use-case](https://github.com/sh4hidkh4n/async-expect#3-using-async-expect))
 
 # Usage
 
